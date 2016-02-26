@@ -90,7 +90,7 @@ describe("About Functions", function() {
       return name + " totally rules!";
     };
 
-    var praiseSinger.givePraise = appendRules;
+    var praiseSinger { givePraise = appendRules };
     expect(praiseSinger.givePraise("John")).toBe("John rules!");
 
     praiseSinger.givePraise = appendDoubleRules;
